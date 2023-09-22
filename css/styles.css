@@ -4,10 +4,12 @@
     --color3 : #0a8967 ;
     --color4 : #0c5149 ;
     --color5 : #0d192b ;
+    --fuente: 'Martian Mono', monospace; 
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--fuente);
 }
